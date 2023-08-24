@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgb(94, 94, 123);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul {
+  padding: 15px 25px 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+/* First section */
+
+h1 {
+  font-size: 30px;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  row-gap: 40px;
+  background-color: aliceblue;
+}
+
+img {
+  width: 40vw;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.two {
+  background-color: rgb(240, 228, 215);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(69, 129, 208);
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip::after {
+  content: 'Go to the next page';
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  width: max-content;
+}
+
+.tooltip:hover::after {
+  opacity: 0.8;
+  visibility: visible;
+}

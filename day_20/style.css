@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background-color: rgb(44, 82, 82);
+  /* padding: 20px; */
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  /* padding: 20px; */
+}
+
+li {
+  padding: 20px;
+  /* text-align: center; */
+}
+
+li:hover {
+  background-color: rgba(26, 48, 48, 0.28);
+  border-bottom: 5px solid rgb(26, 48, 48);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(233, 232, 229);
+}
+header h1 {
+  font-weight: 400;
+}
+
+button {
+  background-color: rgb(41, 46, 46);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Service Section */
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: aliceblue;
+}
+
+.one img {
+  width: 30vw;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(77, 151, 138), -2px -2px 10px rgb(77, 151, 138);
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+/* Contact section */
+
+.two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.two img {
+  height: 400px;
+  width: 600px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+form {
+  width: 40vw;
+}
+form button {
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: rgb(41, 46, 46);
+  color: white;
+  padding: 10px;
+  font-weight: 100;
+}

@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  width: 100vw;
+  color: white;
+  text-shadow: 0 0 5px black;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, green, rgb(198, 243, 152));
+  margin-bottom: 90px;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  background-image: linear-gradient(
+    to right,
+    rgb(63, 161, 63) 50%,
+    rgb(132, 186, 119) 75%,
+    rgb(193, 193, 121)
+  );
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 9px;
+}
+
+label,
+input,
+button,
+textarea {
+  display: block;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 500px;
+  height: 35px;
+}
+
+button {
+  background-color: rgb(8, 40, 8);
+  border: none;
+  color: white;
+}
+
+textarea {
+  overflow: scroll;
+  resize: horizontal;
+}

@@ -1,0 +1,21 @@
+.container-inner {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  background-color: rgb(161, 201, 161);
+  border: 19px solid purple;
+  margin-bottom: 20px;
+}
+
+.container-outer {
+  background-color: lightpink;
+  padding: 0px;
+}
+
+.container-outer h1 {
+  margin-top: 0px;
+}
+
+.container-outer p {
+  margin-bottom: 0px;
+}

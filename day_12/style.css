@@ -1,0 +1,26 @@
+body {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  text-align: center;
+}
+header {
+  background-color: green;
+  width: 100vw;
+  height: 130px;
+  color: white;
+}
+
+i {
+  display: block;
+  margin: 30px auto 6px auto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  background-color: bisque;
+  display: block;
+  width: 100vw;
+  cursor: grab;
+}
